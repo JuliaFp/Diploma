@@ -1,0 +1,48 @@
+.counter {
+    font-size: 3em;
+    font-weight: bold;
+    color: #8000ff;
+    text-align: left;
+
+}
+
+@keyframes count {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.5);
+    }
+}
+
+@keyframes counts {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.5);
+    }
+}
+
+@keyframes countes {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.5);
+    }
+}
+
+p{
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Century gothic';
+  font-size: 30px;
+}
+
+@media screen and (max-width: 960px) {
+
+    .countes span {
+        font-size: 12px;
+    }
+}

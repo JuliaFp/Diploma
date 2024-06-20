@@ -1,0 +1,21 @@
+.block {
+    margin: 20px;
+    padding: 10px;
+    background-color: #f0f0f0 opacity 0.5;
+    border-radius: 5px;
+    z-index: -3;
+}
+
+.divider {
+    border: none;
+    height: 3px;
+    background-color: #ccc;
+    margin: 10px 20px;
+}
+
+@media screen and (max-width: 960px) {
+    .divider{
+        margin-bottom: 70px;
+        margin-top: 186px;
+    }
+}
